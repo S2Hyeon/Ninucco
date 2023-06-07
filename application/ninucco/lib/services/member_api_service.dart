@@ -8,7 +8,7 @@ import 'package:ninucco/providers/auth_provider.dart';
 final FirebaseAuth _auth = FirebaseAuth.instance;
 
 class MemberApiService {
-  static const String baseUrl = "https://k8a605.p.ssafy.io/api/member";
+  static const String baseUrl = "https://ninucco.com/api/member";
   final AuthProvider authProvider;
 
   MemberApiService(this.authProvider);

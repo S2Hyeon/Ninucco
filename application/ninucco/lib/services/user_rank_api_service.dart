@@ -6,7 +6,7 @@ import 'package:ninucco/models/point_rank_info_model.dart';
 import 'package:ninucco/models/user_rank_info_model.dart';
 
 class UserRankApiService {
-  static const String baseUrl = "https://k8a605.p.ssafy.io/api/rank";
+  static const String baseUrl = "https://ninucco.com/api/rank";
 
   static Future<List<UserRankInfoModel>> getUserRanks() async {
     List<UserRankInfoModel> userRankInstances = [];

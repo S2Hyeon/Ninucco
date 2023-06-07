@@ -7,7 +7,7 @@ import 'package:image/image.dart' as IMG;
 import 'package:http_parser/http_parser.dart';
 
 class BattleApiService {
-  static const String baseUrl = "https://k8a605.p.ssafy.io/api/battle";
+  static const String baseUrl = "https://ninucco.com/api/battle";
 
   static Future<List<BattleInfoModel>> getBattles(String battleStatus) async {
     List<BattleInfoModel> battleInstances = [];

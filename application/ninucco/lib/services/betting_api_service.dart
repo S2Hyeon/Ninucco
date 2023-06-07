@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:ninucco/models/battle_betting_request_model.dart';
 
 class BettingApiService {
-  static const String baseUrl = "https://k8a605.p.ssafy.io/api/battle";
+  static const String baseUrl = "https://ninucco.com/api/battle";
 
   static void postBetting(BattleBettingRequestModel bettingPost) {
     final url = Uri.parse('$baseUrl/bet');

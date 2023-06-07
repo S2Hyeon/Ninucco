@@ -43,7 +43,7 @@ class _SubmitButtonState extends State<SubmitButton> {
   }
 
   Future fetchScanResult(String userId) async {
-    var url = Uri.parse('https://k8a605.p.ssafy.io/api/face');
+    var url = Uri.parse('https://ninucco.com/api/face');
     var request = http.MultipartRequest("POST", url);
 
     request.fields['memberId'] = userId;

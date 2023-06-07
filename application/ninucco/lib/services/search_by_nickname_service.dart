@@ -5,7 +5,7 @@ import 'package:ninucco/models/user_model.dart';
 
 class UserSearchApiService {
   static Future<List<UserModel>> searchUserByNickname(String keyword) async {
-    const String baseUrl = "https://k8a605.p.ssafy.io/api/member/search";
+    const String baseUrl = "https://ninucco.com/api/member/search";
     List<UserModel> userList = [];
     final url = Uri.parse('$baseUrl/$keyword');
     final response = await http.get(url);

@@ -106,7 +106,7 @@ class BattlerApproveButton extends StatelessWidget {
   final Battle battleData;
 
   void approveBattle() async {
-    var url = Uri.parse('https://k8a605.p.ssafy.io/api/battle');
+    var url = Uri.parse('https://ninucco.com/api/battle');
     var request = http.MultipartRequest("PATCH", url);
 
     request.fields['battleId'] = battleData.battleId.toString();

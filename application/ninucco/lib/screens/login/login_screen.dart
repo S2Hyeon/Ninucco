@@ -100,8 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             var userData =
                                 await authProvider.signInWithGoogle();
                             var user = userData.user;
-                            String baseUrl =
-                                "https://k8a605.p.ssafy.io/api/member";
+                            String baseUrl = "https://ninucco.com/api/member";
                             if (user?.uid == null) {
                               return;
                             }
@@ -179,8 +178,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             var userData = await authProvider.signInAnonymous();
                             var user = userData.user;
 
-                            String baseUrl =
-                                "https://k8a605.p.ssafy.io/api/member";
+                            String baseUrl = "https://ninucco.com/api/member";
                             var url = Uri.parse('$baseUrl/regist');
 
                             Map<String, String?> data = {

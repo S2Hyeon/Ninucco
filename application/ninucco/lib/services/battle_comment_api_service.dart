@@ -5,7 +5,7 @@ import 'package:ninucco/models/battle_comment_info_model.dart';
 import 'package:ninucco/models/battle_comment_post_model.dart';
 
 class BattleApiCommentService {
-  static const String baseUrl = "https://k8a605.p.ssafy.io/api/battle";
+  static const String baseUrl = "https://ninucco.com/api/battle";
 
   static Stream<List<BattleCommentInfoModel>> getBattleComments(
       int battleId) async* {
